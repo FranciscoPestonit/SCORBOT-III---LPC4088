@@ -1,0 +1,18 @@
+--cpu=Cortex-M4.fp.sp
+".\objects\main.o"
+".\lpc40xx_base.lib"
+".\objects\motor.o"
+".\objects\uart_lpc40xx.o"
+".\objects\lcd_hd44780_lpc40xx.o"
+".\objects\lcd_i2c_lpc40xx.o"
+".\objects\i2c_lpc40xx.o"
+".\objects\menu_i2c.o"
+".\objects\joystick_analogico.o"
+".\objects\eeprom_lpc40xx.o"
+".\objects\scorbot_er_iii.o"
+".\objects\startup_lpc407x_8x_177x_8x.o"
+".\objects\system_lpc407x_8x_177x_8x.o"
+--strict --scatter ".\Objects\PWM_Dual.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\PWM_Dual.map" -o .\Objects\PWM_Dual.axf

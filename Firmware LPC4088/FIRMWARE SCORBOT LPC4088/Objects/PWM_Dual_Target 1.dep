@@ -1,0 +1,114 @@
+Dependencies for Project 'PWM_Dual', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6230000::V6.23::ARMCLANG
+F (.\main.c)(0x6980A3AD)(-xc --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC4088FET208-I./RTE/_Target_1-IC:/Users/Mayte/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Mayte/AppData/Local/Arm/Packs/Keil/LPC4000_DFP/2.2.2/Device/Include-D__UVISION_VERSION="542" -DCORE_M4 -D_RTE_-o ./objects/main.o -MMD)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\Keil\LPC4000_DFP\2.2.2\Device\Include\LPC407x_8x_177x_8x.h)(0x682B7183)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x682B7193)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\Keil\LPC4000_DFP\2.2.2\Device\Include\system_LPC407x_8x_177x_8x.h)(0x682B7183)
+I (timer_lpc40xx.h)(0x68C28223)
+I (tipos.h)(0x68E793A9)
+I (gpio_lpc40xx.h)(0x68E24B5D)
+I (uart_lpc40xx.h)(0x69709CE4)
+I (iocon_lpc40xx.h)(0x68C28223)
+I (joystick.h)(0x68C28223)
+I (motor.h)(0x6980A55E)
+I (menu_I2C.h)(0x68FA435D)
+I (EEPROM_lpc40xx.h)(0x68FB4CDC)
+I (SCORBOT_ER_III.h)(0x69807308)
+F (.\lpc40xx_base.lib)(0x68C28223)()
+F (.\motor.c)(0x697F92BF)(-xc --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC4088FET208-I./RTE/_Target_1-IC:/Users/Mayte/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Mayte/AppData/Local/Arm/Packs/Keil/LPC4000_DFP/2.2.2/Device/Include-D__UVISION_VERSION="542" -DCORE_M4 -D_RTE_-o ./objects/motor.o -MMD)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\Keil\LPC4000_DFP\2.2.2\Device\Include\LPC407x_8x_177x_8x.h)(0x682B7183)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x682B7193)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\Keil\LPC4000_DFP\2.2.2\Device\Include\system_LPC407x_8x_177x_8x.h)(0x682B7183)
+I (timer_lpc40xx.h)(0x68C28223)
+I (tipos.h)(0x68E793A9)
+I (gpio_lpc40xx.h)(0x68E24B5D)
+I (iocon_lpc40xx.h)(0x68C28223)
+I (uart_lpc40xx.h)(0x69709CE4)
+I (joystick.h)(0x68C28223)
+I (motor.h)(0x6980A55E)
+I (EEPROM_lpc40xx.h)(0x68FB4CDC)
+F (.\uart_lpc40xx.c)(0x69709CE4)(-xc --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC4088FET208-I./RTE/_Target_1-IC:/Users/Mayte/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Mayte/AppData/Local/Arm/Packs/Keil/LPC4000_DFP/2.2.2/Device/Include-D__UVISION_VERSION="542" -DCORE_M4 -D_RTE_-o ./objects/uart_lpc40xx.o -MMD)
+I (uart_lpc40xx.h)(0x69709CE4)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\Keil\LPC4000_DFP\2.2.2\Device\Include\LPC407x_8x_177x_8x.h)(0x682B7183)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x682B7193)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\Keil\LPC4000_DFP\2.2.2\Device\Include\system_LPC407x_8x_177x_8x.h)(0x682B7183)
+I (tipos.h)(0x68E793A9)
+I (gpio_lpc40xx.h)(0x68E24B5D)
+I (error.h)(0x68C28223)
+I (iocon_lpc40xx.h)(0x68C28223)
+F (.\pruebas.txt)(0x68F6AAF8)()
+F (.\lcd_hd44780_lpc40xx.c)(0x669008E5)(-xc --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC4088FET208-I./RTE/_Target_1-IC:/Users/Mayte/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Mayte/AppData/Local/Arm/Packs/Keil/LPC4000_DFP/2.2.2/Device/Include-D__UVISION_VERSION="542" -DCORE_M4 -D_RTE_-o ./objects/lcd_hd44780_lpc40xx.o -MMD)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\Keil\LPC4000_DFP\2.2.2\Device\Include\LPC407x_8x_177x_8x.h)(0x682B7183)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x682B7193)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\Keil\LPC4000_DFP\2.2.2\Device\Include\system_LPC407x_8x_177x_8x.h)(0x682B7183)
+I (lcd_hd44780_lpc40xx.h)(0x669008E5)
+I (tipos.h)(0x68E793A9)
+I (lcd_i2c_lpc40xx.h)(0x669008E5)
+I (timer_lpc40xx.h)(0x68C28223)
+F (.\lcd_i2c_lpc40xx.c)(0x669008E5)(-xc --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC4088FET208-I./RTE/_Target_1-IC:/Users/Mayte/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Mayte/AppData/Local/Arm/Packs/Keil/LPC4000_DFP/2.2.2/Device/Include-D__UVISION_VERSION="542" -DCORE_M4 -D_RTE_-o ./objects/lcd_i2c_lpc40xx.o -MMD)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\Keil\LPC4000_DFP\2.2.2\Device\Include\LPC407x_8x_177x_8x.h)(0x682B7183)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x682B7193)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\Keil\LPC4000_DFP\2.2.2\Device\Include\system_LPC407x_8x_177x_8x.h)(0x682B7183)
+I (i2c_lpc40xx.h)(0x683C5627)
+I (tipos.h)(0x68E793A9)
+I (timer_lpc40xx.h)(0x68C28223)
+I (gpio_lpc40xx.h)(0x68E24B5D)
+I (lcd_i2c_lpc40xx.h)(0x669008E5)
+F (.\i2c_lpc40xx.c)(0x672B2202)(-xc --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC4088FET208-I./RTE/_Target_1-IC:/Users/Mayte/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Mayte/AppData/Local/Arm/Packs/Keil/LPC4000_DFP/2.2.2/Device/Include-D__UVISION_VERSION="542" -DCORE_M4 -D_RTE_-o ./objects/i2c_lpc40xx.o -MMD)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\Keil\LPC4000_DFP\2.2.2\Device\Include\LPC407x_8x_177x_8x.h)(0x682B7183)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x682B7193)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\Keil\LPC4000_DFP\2.2.2\Device\Include\system_LPC407x_8x_177x_8x.h)(0x682B7183)
+I (i2c_lpc40xx.h)(0x683C5627)
+I (tipos.h)(0x68E793A9)
+I (iocon_lpc40xx.h)(0x68C28223)
+I (gpio_lpc40xx.h)(0x68E24B5D)
+I (error.h)(0x68C28223)
+F (.\menu_I2C.c)(0x68FC6D17)(-xc --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC4088FET208-I./RTE/_Target_1-IC:/Users/Mayte/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Mayte/AppData/Local/Arm/Packs/Keil/LPC4000_DFP/2.2.2/Device/Include-D__UVISION_VERSION="542" -DCORE_M4 -D_RTE_-o ./objects/menu_i2c.o -MMD)
+I (menu_I2C.h)(0x68FA435D)
+I (tipos.h)(0x68E793A9)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\Keil\LPC4000_DFP\2.2.2\Device\Include\LPC407x_8x_177x_8x.h)(0x682B7183)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x682B7193)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\Keil\LPC4000_DFP\2.2.2\Device\Include\system_LPC407x_8x_177x_8x.h)(0x682B7183)
+I (i2c_lpc40xx.h)(0x683C5627)
+I (lcd_i2c_lpc40xx.h)(0x669008E5)
+I (lcd_hd44780_lpc40xx.h)(0x669008E5)
+I (gpio_lpc40xx.h)(0x68E24B5D)
+I (joystick_analogico.h)(0x68FA4867)
+I (iocon_lpc40xx.h)(0x68C28223)
+I (timer_lpc40xx.h)(0x68C28223)
+I (joystick.h)(0x68C28223)
+I (SCORBOT_ER_III.h)(0x69807308)
+I (motor.h)(0x6980A55E)
+F (.\joystick_analogico.c)(0x68FA4DC4)(-xc --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC4088FET208-I./RTE/_Target_1-IC:/Users/Mayte/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Mayte/AppData/Local/Arm/Packs/Keil/LPC4000_DFP/2.2.2/Device/Include-D__UVISION_VERSION="542" -DCORE_M4 -D_RTE_-o ./objects/joystick_analogico.o -MMD)
+I (joystick_analogico.h)(0x68FA4867)
+I (gpio_lpc40xx.h)(0x68E24B5D)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\Keil\LPC4000_DFP\2.2.2\Device\Include\LPC407x_8x_177x_8x.h)(0x682B7183)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x682B7193)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\Keil\LPC4000_DFP\2.2.2\Device\Include\system_LPC407x_8x_177x_8x.h)(0x682B7183)
+I (tipos.h)(0x68E793A9)
+I (iocon_lpc40xx.h)(0x68C28223)
+F (.\EEPROM_lpc40xx.c)(0x68FB5068)(-xc --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC4088FET208-I./RTE/_Target_1-IC:/Users/Mayte/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Mayte/AppData/Local/Arm/Packs/Keil/LPC4000_DFP/2.2.2/Device/Include-D__UVISION_VERSION="542" -DCORE_M4 -D_RTE_-o ./objects/eeprom_lpc40xx.o -MMD)
+I (EEPROM_lpc40xx.h)(0x68FB4CDC)
+I (tipos.h)(0x68E793A9)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\Keil\LPC4000_DFP\2.2.2\Device\Include\LPC407x_8x_177x_8x.h)(0x682B7183)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x682B7193)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\Keil\LPC4000_DFP\2.2.2\Device\Include\system_LPC407x_8x_177x_8x.h)(0x682B7183)
+F (.\SCORBOT_ER_III.c)(0x698077AF)(-xc --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC4088FET208-I./RTE/_Target_1-IC:/Users/Mayte/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Mayte/AppData/Local/Arm/Packs/Keil/LPC4000_DFP/2.2.2/Device/Include-D__UVISION_VERSION="542" -DCORE_M4 -D_RTE_-o ./objects/scorbot_er_iii.o -MMD)
+I (SCORBOT_ER_III.h)(0x69807308)
+I (tipos.h)(0x68E793A9)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\Keil\LPC4000_DFP\2.2.2\Device\Include\LPC407x_8x_177x_8x.h)(0x682B7183)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x682B7193)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\Keil\LPC4000_DFP\2.2.2\Device\Include\system_LPC407x_8x_177x_8x.h)(0x682B7183)
+I (motor.h)(0x6980A55E)
+I (gpio_lpc40xx.h)(0x68E24B5D)
+I (timer_lpc40xx.h)(0x68C28223)
+I (EEPROM_lpc40xx.h)(0x68FB4CDC)
+I (uart_lpc40xx.h)(0x69709CE4)
+F (RTE/Device/LPC4088FET208/RTE_Device.h)(0x68C28223)()
+F (RTE/Device/LPC4088FET208/startup_LPC407x_8x_177x_8x.s)(0x68E792C1)(--cpu Cortex-M4.fp.sp -g --diag_suppress=A1950W-I.\RTE\Device\LPC4088FET208-I.\RTE\_Target_1-IC:\Users\Mayte\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\Mayte\AppData\Local\Arm\Packs\Keil\LPC4000_DFP\2.2.2\Device\Include--pd "__UVISION_VERSION SETA 542"--pd "CORE_M4 SETA 1"--pd "_RTE_ SETA 1"--list .\listings\startup_lpc407x_8x_177x_8x.lst--xref -o .\objects\startup_lpc407x_8x_177x_8x.o--depend .\objects\startup_lpc407x_8x_177x_8x.d)
+F (RTE/Device/LPC4088FET208/system_LPC407x_8x_177x_8x.c)(0x68C28223)(-xc --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC4088FET208-I./RTE/_Target_1-IC:/Users/Mayte/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Mayte/AppData/Local/Arm/Packs/Keil/LPC4000_DFP/2.2.2/Device/Include-D__UVISION_VERSION="542" -DCORE_M4 -D_RTE_-o ./objects/system_lpc407x_8x_177x_8x.o -MMD)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\Keil\LPC4000_DFP\2.2.2\Device\Include\LPC407x_8x_177x_8x.h)(0x682B7183)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x682B7193)
+I (C:\Users\Mayte\AppData\Local\Arm\Packs\Keil\LPC4000_DFP\2.2.2\Device\Include\system_LPC407x_8x_177x_8x.h)(0x682B7183)
+I (RTE\Device\LPC4088FET208\system_LPC407x_8x_177x_8x.h)(0x68E792C1)
+F (RTE/Device/LPC4088FET208/system_LPC407x_8x_177x_8x.h)(0x68E792C1)()
