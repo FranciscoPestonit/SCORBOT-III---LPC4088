@@ -1,0 +1,11 @@
+Modelo seleccionado: SOPDT
+K = 0.970068
+Tau = 243.235047
+Theta = 0.000052
+y0 = 12.292685
+
+PID (pidtune):
+Kp = 2.109602, Ki = 0.006079, Kd = 177.959009
+
+PI SIMC:
+Kp = 2.061711, Ti = 243.235047

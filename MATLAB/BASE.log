@@ -1,0 +1,34 @@
+Conversión de Solid Edge en OBJ
+Fecha: domingo,noviembre 02,2025 10:05
+Archivo de salida: C:\Users\Mayte\Desktop\TFG SCORBOT\11. MATLAB TFG\BASE.obj
+Autor: Desconocido
+Organización: Desconocido
+Sistema fuente: SOLID EDGE
+
+Hardware:
+Procesador: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+Sistema operativo: Windows 10 Professional
+Memoria instalada: 15.83 GB
+
+Información sobre el software:
+Versión de Parasolid: 37.0.118
+Versión de PSBodyShop: 37.0.94
+Versión del adaptador OBJ: 15.0.142
+Versión de Solid Edge: 225.00.01.004 x64
+
+Opciones de exportación de OBJ:
+Exportar los sólidos de construcción: Activado
+Exportar las piezas visualizadas: Activado
+Exportar Superficies de construcción: Desactivado
+Habilitar registro de anotaciones: Activado
+Exportar texturas: Desactivado
+Exportar conjunto en fichero plano: On
+Exportar cuerpos sólidos y superficies de construcción, si no hay cuerpos de diseño:Desactivado
+Unidades de exportación: Millimeters
+Valor de la tolerancia de exportación:0.001000
+Tipo de tolerancia de exportación: Fine
+Valor del ángulo plano de superficie de exportación:0.523599
+
+Avance en la conversión:
+Se completó el proceso de conversión
+Tiempo necesario para convertir:00 : 00 : 04
